@@ -1,0 +1,20 @@
+
+
+.nav-btn{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: lightgreen;
+    position: absolute;
+    top:80px;
+    /*bottom:0;*/
+    margin:auto;
+}
+
+.prev-slide{
+    left:50px;
+}
+
+.next-slide{
+    right: 50px;
+}

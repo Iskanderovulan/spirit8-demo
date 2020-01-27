@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/owl.carousel.min.css">
+    <link rel="stylesheet" href="./css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+
+</head>
+<body>
+<div class="slider owl-carousel owl-theme">
+    <img src="./pictures/1.jpg" alt="">
+    <img src="./pictures/1.jpg" alt="">
+    <img src="./pictures/1.jpg" alt="">
+    <img src="./pictures/1.jpg" alt="">
+    <img src="./pictures/1.jpg" alt="">
+
+</div>
+
+
+<script src="./js/jquery.js"></script>
+<script src="./js/owl.carousel.min.js"></script>
+
+<script>
+    $(document).ready(function(){
+        $(".owl-carousel").owlCarousel({
+            items:1,
+            margin:20,
+            loop:true,
+            nav:true,
+            responsive:{
+                560:{
+                    items:2
+                },
+                992:{
+                    items:3
+                     },
+                1200:{
+                    items:4
+                      }
+            },
+
+            navText:["<div class='nav-btn prev-slide'>&#8592;</div>","<div class='nav-btn next-slide'>&#8594;</div>"],
+        });
+    });
+</script>
+</body>
+</html>
